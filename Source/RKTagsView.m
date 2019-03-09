@@ -1,7 +1,7 @@
 #import "RKTagsView.h"
 
 #define DEFAULT_BUTTON_TAG -9999
-#define DEFAULT_BUTTON_HORIZONTAL_PADDING 3
+#define DEFAULT_BUTTON_HORIZONTAL_PADDING 0
 #define DEFAULT_BUTTON_VERTICAL_PADDING 0
 #define DEFAULT_BUTTON_CORNER_RADIUS 0
 #define DEFAULT_BUTTON_BORDER_WIDTH 0
@@ -85,8 +85,8 @@ const CGFloat RKTagsViewAutomaticDimension = -0.0001;
     _selectBeforeRemoveOnDeleteBackward = YES;
     _deselectAllOnEdit = YES;
     _deselectAllOnEndEditing = YES;
-    _lineSpacing = 2;
-    _interitemSpacing = 2;
+    _lineSpacing = 0;
+    _interitemSpacing = 0;
     _tagButtonHeight = RKTagsViewAutomaticDimension;
     _textFieldHeight = RKTagsViewAutomaticDimension;
     _textFieldAlign = RKTagsViewTextFieldAlignCenter;
